@@ -559,8 +559,6 @@ nav#navbar {
 }
 
 .info > ul > li {
-	float: left;
-	width: 25%;
 	border-right: 1px solid #08213d;
 }
 
@@ -577,7 +575,6 @@ nav#navbar {
 	border-radius: 50%;
 	box-shadow: 0 0 0 1px #ce0202, 0 0 0 1px #ce0202, 0 0 0 1px #ce0202, 0 0 0 1px #ce0202, 0 0 0 1px #ce0202, 0 0 0 1px #ce0202, 0 0 0 1px #ce0202, 0 0 0 1px #ce0202, 0 0 0 1px #ce0202, 0 0 0 1px #ce0202;
 	color: #fff;
-	float: left;
 	font-size: 21px;
 	height: 60px;
 	line-height: 52px;
@@ -590,18 +587,21 @@ nav#navbar {
 	color: #fff;
 	line-height: 60px;
 	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
 }
 
+.single_info.clearfix > span{
+	color: #fff;
+}
 .search_fomr span {
 	background: #d32f2f none repeat scroll 0 0;
 	border-radius: 30px 0 0 30px;
 	color: #fff;
 	display: inline-block;
-	float: left;
 	font-size: 23px;
 	line-height: 60px;
 	text-align: center;
-	width: 10%;
 	cursor: pointer
 }
 
@@ -1338,7 +1338,7 @@ figure:hover .fighvr {
 .price_head {
 	position: relative;
 	margin-bottom: 60px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 .price_head:after {
@@ -1386,7 +1386,8 @@ figure:hover .fighvr {
 .price_content > ul {
 	list-style: outside none none;
 	margin: 0;
-	padding: 0;
+	padding: 10px;
+	height: 200px;
 }
 
 .price_content > ul li {
@@ -1659,6 +1660,10 @@ dd {
 	border-top: medium none;
 }
 
+#brochure{
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* ****************************************
 	>>> 1.12	Map Area styles 
