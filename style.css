@@ -1026,7 +1026,7 @@ p.speaker_pos {
 	z-index: -1;
 }
 
-form.subscribe {
+.subscribe {
 	color: #fff;
 	font-size: 18px;
 	text-align: center;
@@ -1039,7 +1039,7 @@ form.subscribe {
 	text-transform: uppercase;
 }
 
-form.subscribe > p {
+.subscribe > p {
 	margin-bottom: 25px;
 }
 
