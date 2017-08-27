@@ -976,8 +976,9 @@ a.cta_btn:hover {
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 600;
+	height: 70px;
 	line-height: 24px;
-	margin: 0;
+	margin: 15px;
 }
 
 .schedule_img {
@@ -987,6 +988,7 @@ a.cta_btn:hover {
 
 .schedule_img img {
 	display: inline-block;
+	margin: 20px;
 	height: 100px;
 	width: 100px;
 }
@@ -2014,6 +2016,24 @@ footer {
 .about_slide_cont p h3 + p, .about_info {
 	display: none;
 }
+.about_slide_cont > i{
+	margin-bottom: 25px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	display: inline-block !important;
+	height: 90px;
+	line-height: 90px;
+	margin-bottom: 10px;
+	width: 90px !important;
+	background: #d32f2f ;
+	font-size: 38px;
+	font-weight: 700;
+	left: 50%;
+	color: #fff;
+	-webkit-transition: .4s;
+	transition: .4s;
+
+}
 .about_slide_cont h3 + p {
   display: none;
 	margin-bottom: 20px;
@@ -2086,6 +2106,7 @@ footer {
 }
 .about_info li {
     list-style: outside none none;
+    font-weight: bold;
 	color: #d32f2f
 }
 .about_info ul span {
