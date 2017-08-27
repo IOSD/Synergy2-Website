@@ -660,7 +660,10 @@ px      68    160    252    344    436    528    620    712    */
 		display: none;
 	}
 	.map_area > div#googleMap {
-		height: 360px;
+		height: 360px; 
+	}
+	#googleMap{
+		width: 70% !important;
 	}
 	.contact_info_top {
 		min-height: 259px;
