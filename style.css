@@ -128,7 +128,7 @@ body {
 
 header {
 	height: 400px;
-	background: url(img/header-bg.jpg);
+	background: url(img/DSC_0074.jpg);
 	background-size: cover;
 	background-position: center;
 	position: relative;
@@ -541,7 +541,7 @@ nav#navbar {
 }
 
 .home .header_bottom_area {
-	bottom: 0;
+	bottom: 25px;
 	position: absolute;
 	width: 100%;
 	display: block
@@ -1769,8 +1769,6 @@ dd {
 .contact_link > ul > li > a:hover {
 	color: #d32f2f
 }
-
-
 /* ****************************************
 	>>>	1.13	Footer styles
 ** ************************************* */
