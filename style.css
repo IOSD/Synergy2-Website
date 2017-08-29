@@ -1010,15 +1010,16 @@ p.speaker_pos {
 ** ************************************** */
 
 .subscribe_area {
-	background: url(img/subscribe-bg.jpg);
+	background: url(img/DSC_0085.jpg);
 	background-size: cover;
+	background-position: center;
 	position: relative;
-	z-index: 1;
+	z-index: 4;
 	padding: 75px 0;
 }
 
 .subscribe_area:before {
-	background: rgba(211, 47, 47, 0.95) none repeat scroll 0 0;
+	background: rgba(211, 47, 47, 0.92) none repeat scroll 0 0;
 	content: "";
 	height: 100%;
 	left: 0;
@@ -2433,7 +2434,7 @@ footer {
 	content: '\e004';
 }
 
-.contact_form .contact_messege:before {
+.contact_form .contact_message:before {
 	content: "\e032";
 	font-family: et-line;
 	font-size: 22px;
@@ -2447,14 +2448,14 @@ footer {
 	margin-right: 1%;
 }
 
-.contact_form div.contact_messege {
+.contact_form div.contact_message {
 	width: 100%;
 	margin: 0 0 35px 0;
 	height: 140px;
 	border-radius: 65px;
 }
 
-.contact_form div.contact_messege textarea {
+.contact_form div.contact_message textarea {
 	width: 100%;
 	height: 100%;
 	background: transparent!important;
