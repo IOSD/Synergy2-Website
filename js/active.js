@@ -150,7 +150,23 @@ jQuery(document).ready(function ($) {
 		variableWidth: true,
 	});
 
-
+	$('#contactform').submit(function(e){
+								e.preventDefault() ;
+								console.log('triggered');
+								var a = $(this).serializeArray().reduce(function(m,o){ m[o.name] = o.value; return m;}, {})
+								console.log(a);
+								$.ajax({
+									url: "https://formspree.io/kriti.arora@iosd.tech", 
+									method: "POST",
+									data: a ,
+									dataType: "json"
+								}).done( function ( data) {
+									console.log(data);
+									if (data.success) {
+										alert('We Will Get Back to You Shortly');
+									}
+								})
+							})
 
 	//speaker content padding
 	
