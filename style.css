@@ -371,7 +371,7 @@ nav#navbar {
 
 #navbar > ul {
   list-style: outside none none;
-  margin: 0 50px 0 0;
+  margin: 0 20px 0 0;
   padding: 0;
 }
 
@@ -484,7 +484,7 @@ nav#navbar {
         font-size: 20px;
 }
 .home .home_content {
-	margin-top: 0
+	margin-top: 0;
 }
 
 .home .home_content h5 {
@@ -503,6 +503,9 @@ nav#navbar {
 	font-size: 40px;
 	text-transform: uppercase;
 	margin-bottom: 20px
+}
+#main_heading{
+	font-size: 55px;
 }
 
 .home .home_text {
@@ -665,7 +668,10 @@ nav#navbar {
 	padding: 160px 0;
 	overflow: hidden
 }
-
+.about_area span{
+	font-size:25px;
+	font-weight:bold;
+}
 .single_about {
 	color: #ededed;
 	padding: 0px;
@@ -715,7 +721,22 @@ nav#navbar {
 	margin-top: 40px;
 	text-transform: uppercase;
 }
-
+.about_if ul>li{
+	padding: 8px;
+}
+.cta_area h1{
+	color:#08213d;
+	padding: 10px;
+}
+.about_if{
+	padding: 40px;
+	color: #fff;
+	font-size: 18px;
+}
+.bes{
+	font-size:100px;
+	font-weight:300px;
+}
 .single_about span > p {
 	margin: 0;
 }
@@ -769,7 +790,7 @@ nav#navbar {
 ** ************************************* */
 
 .cta_area {
-	background: url(img/cta-bg.jpg);
+	background: url(img/DSC_0086.jpg);
 	background-size: cover;
 	padding: 20px 0;
 	position: relative;
