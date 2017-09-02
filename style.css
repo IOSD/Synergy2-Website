@@ -371,7 +371,7 @@ nav#navbar {
 
 #navbar > ul {
   list-style: outside none none;
-  margin: 0 50px 0 0;
+  margin: 0 20px 0 0;
   padding: 0;
 }
 
@@ -484,7 +484,7 @@ nav#navbar {
         font-size: 20px;
 }
 .home .home_content {
-	margin-top: 0
+	margin-top: 0;
 }
 
 .home .home_content h5 {
@@ -503,6 +503,9 @@ nav#navbar {
 	font-size: 40px;
 	text-transform: uppercase;
 	margin-bottom: 20px
+}
+#main_heading{
+	font-size: 55px;
 }
 
 .home .home_text {
