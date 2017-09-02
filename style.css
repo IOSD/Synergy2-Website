@@ -668,7 +668,10 @@ nav#navbar {
 	padding: 160px 0;
 	overflow: hidden
 }
-
+.about_area span{
+	font-size:25px;
+	font-weight:bold;
+}
 .single_about {
 	color: #ededed;
 	padding: 0px;
@@ -718,7 +721,22 @@ nav#navbar {
 	margin-top: 40px;
 	text-transform: uppercase;
 }
-
+.about_if ul>li{
+	padding: 8px;
+}
+.cta_area h1{
+	color:#08213d;
+	padding: 10px;
+}
+.about_if{
+	padding: 40px;
+	color: #fff;
+	font-size: 18px;
+}
+.bes{
+	font-size:100px;
+	font-weight:300px;
+}
 .single_about span > p {
 	margin: 0;
 }
@@ -772,7 +790,7 @@ nav#navbar {
 ** ************************************* */
 
 .cta_area {
-	background: url(img/cta-bg.jpg);
+	background: url(img/DSC_0086.jpg);
 	background-size: cover;
 	padding: 20px 0;
 	position: relative;
