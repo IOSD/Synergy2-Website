@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
 	//countdown timer
 
 	$('.count_down').countdown('2017/10/13', function (event) {
-		$(this).html(event.strftime('<div class="single_count"><h1>%D</h1><p>Days</p></div><div class="single_count"><h1>%H</h1><p>Hour</p></div><div class="single_count"><h1>%M</h1><p>Minute</p></div><div class="single_count"><h1>%S</h1><p>Second</p></div>'));
+		$(this).html(event.strftime('<div class="single_count"><h1>%D</h1><p>Days</p></div><div class="single_count"><h1>%H</h1><p>Hours</p></div><div class="single_count"><h1>%M</h1><p>Minutes</p></div><div class="single_count"><h1>%S</h1><p>Seconds</p></div>'));
 	});
 	
     
@@ -35,7 +35,6 @@ jQuery(document).ready(function ($) {
     
     
 	//home content padding
-
 	var header = $('header').height();
 	var homeArea = $('.home_area').height();
 	var paddingHomeContent = (header - homeArea) / 2.5;
@@ -44,6 +43,7 @@ jQuery(document).ready(function ($) {
 		paddingTop: paddingHomeContent + 'px',
 		paddingBottom: paddingHomeContent + 'px'
 	});
+	
   
 	//search box
 	

@@ -7,6 +7,12 @@ px      68    160    252    344    436    528    620    712    */
 	.iosd-logo img{
 		height: 180px;
 	}
+	.home .home_area{
+		padding: 380px 0;
+	}
+	.home_area{
+		padding: 150px 0;
+	}
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
 	#main_heading img{
@@ -389,6 +395,9 @@ px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.section_padding {
 		padding: 70px 0;
+	}
+	.bes{
+		font-size: 40px;
 	}
 	.section_title > h1 {
 		font-size: 30px;
@@ -931,10 +940,13 @@ px      68    160    252    344    436    528    620    712    */
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
 
-@media only screen and (min-width: 0px) and (max-width: 767px) {
+@media only screen and (min-width: 0px) and (max-width: 479px) {
 	.home header {
 		height: 640px;
-		padding-top: 15px
+		padding-top: 15px;
+	}
+	.bes  {
+		font-size: 40px;
 	}
 	.container {
 		width: 300px;
@@ -1847,6 +1859,9 @@ px      68    160    252    344    436    528    620    712    */
 	}
 	a.logo{
 		font-size: 12px;
+	}
+	.bes{
+		font-size: 40px;
 	}
 	.single_count {
 		border-radius: 25px;
