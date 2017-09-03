@@ -3,12 +3,25 @@
 -----------------------------------------------------------------
 cols    1     2      3      4      5      6      7      8
 px      68    160    252    344    436    528    620    712    */
-
+@media only screen and (min-width: 1200px){
+	.iosd-logo img{
+		height: 180px;
+	}
+}
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+	#main_heading img{
+		height: 190px;
+	}
 	#navbar > ul > li > a {
 		font-size: 12px;
 		padding: 0 15px;
 	}
+	.iosd-logo img{
+		height:180px;
+		line-height: 180px;
+		margin-top: 110px;
+	}
+
 	.home .home_content h5 {
 		border-width: 1px;
 		font-size: 13px;
@@ -68,7 +81,7 @@ px      68    160    252    344    436    528    620    712    */
 		padding: 15px;
 	}
 	.home header {
-		height: 650px;
+		height: 850px;
 	}
 	.cta_left > p {
 		font-size: 20px;
@@ -497,6 +510,9 @@ px      68    160    252    344    436    528    620    712    */
 		font-size: 11px;
 		line-height: 50px;
 	}
+	#main_heading img{
+		height: 100px;
+	}
 	header {
 		height: 300px;
 	}
@@ -663,7 +679,7 @@ px      68    160    252    344    436    528    620    712    */
 		height: 360px; 
 	}
 	#googleMap{
-		width: 70% !important;
+		width: 100% !important;
 	}
 	.contact_info_top {
 		min-height: 259px;
@@ -923,7 +939,13 @@ px      68    160    252    344    436    528    620    712    */
 	.container {
 		width: 300px;
 	}
+	.iosd-logo img{
+		text-align: center;
+		line-height: 60px;
+		height: 60px;
+	}
 	a.logo {
+		font-size: 12px;
 		position: relative;
 		z-index: 2
 	}
@@ -951,6 +973,9 @@ px      68    160    252    344    436    528    620    712    */
 	#navbar > ul > li.current-menu-item > a,
 	#navbar > ul > li > a:hover {
 		border-color: #08213d;
+	}
+	#main_heading img{
+		height: 90px;
 	}
 	.home .home_content h5 {
 		border-width: 1px;
@@ -1009,7 +1034,7 @@ px      68    160    252    344    436    528    620    712    */
 		width: 40px;
 	}
 	.info > ul > li {
-		width: 25%;
+		
 	}
 	.single_info {
 		padding: 15px 0;
@@ -1035,7 +1060,7 @@ px      68    160    252    344    436    528    620    712    */
 		font-size: 11px;
 		height: auto;
 		padding: 30px 21px;
-		width: 270px;
+		width: 100%;
 		border-radius: 15px
 	}
 	.single_about p {
@@ -1382,8 +1407,9 @@ px      68    160    252    344    436    528    620    712    */
 	.map_area > div#googleMap {
 		display: block;
 		height: 200px;
-		width: 270px;
-		margin: 0 auto
+		left: 0;
+		width: 100%;
+		margin: 0;
 	}
 	.map_content_area {
 		position: static
@@ -1818,6 +1844,9 @@ px      68    160    252    344    436    528    620    712    */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	.container {
 		width: 470px;
+	}
+	a.logo{
+		font-size: 12px;
 	}
 	.single_count {
 		border-radius: 25px;
