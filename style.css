@@ -495,7 +495,8 @@ nav#navbar {
 	min-width: 150px;
 	text-align: center;
 	color: #fff;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
+	padding: 7px;
 }
 
 .home_content h1 {
@@ -506,6 +507,7 @@ nav#navbar {
 }
 #main_heading{
 	font-size: 55px;
+	margin-bottom: 20px;
 }
 
 .home .home_text {
