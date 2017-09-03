@@ -14,6 +14,7 @@
         <!-- custom css -->
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/responsive.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
 
         <!--[if lt IE 9]>
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -41,7 +42,7 @@
 	                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
 	                    <div class="internal_row row">
 	                        <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
-	                            <a href="#" class="logo">
+	                            <a href="index.html" class="logo">
 	                                Synergy 2.0
 	                            </a>
 	                        </div>
@@ -56,7 +57,7 @@
                                         <li><a href="index.html">Home</a></li>
                                         <li><a href="about.html">About</a></li>
                                         <li><a href="schedule.html">Schedule</a></li>
-                                         <li><a href="http://www.hackdtu.tech">HackDTU</a></li>
+                                         <li><a href="http://www.hackdtu.tech" target="_blank">HackDTU</a></li>
                                         <li><a href="if.html">Internship Fair</a></li>
                                         <li class="current-menu-item"><a href="codeinless.html">Code In Less</a></li>
                                         <li><a href="contact.html">Contact</a></li>
@@ -123,22 +124,22 @@
                 <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                     <div class="cta clearfix">
                     <div class="about_if">
-                    <h1>RULES</h1>
+                    <h1 class="wow animated fadeInUp">RULES</h1>
                     <ul>
                         <li>The duration of the contest is 120 minutes.</li>
-                        <li>Maximum Team size: Two</li>
-                        <li>The decision of organizers is final for selecting the participants for the event.</li>
-                        <li>You cannot discuss strategy, suggestions or tips with other participants.</li>
-                        <li>The decision of judges is final for determining prizes and awards.</li>
-                        <li>Please comply with all instructions from Code War organizers.</li>
+                        <li data-wow-delay="0.7s">Maximum Team size: Two</li>
+                        <li data-wow-delay="1.4s">The decision of organizers is final for selecting the participants for the event.</li>
+                        <li data-wow-delay="2.1s">You cannot discuss strategy, suggestions or tips with other participants.</li>
+                        <li data-wow-delay="2.8s">The decision of judges is final for determining prizes and awards.</li>
+                        <li data-wow-delay="3.5s">Please comply with all instructions from the organizers.</li>
                         
                     </ul>
                     </div>
-                        <div class="cta_left">
+                        <div class="cta_left ">
                             <p><span>REGISTRATIONS</span> start 10 September 2017</p>
                         </div>
-                        <div class="cta_right">
-                            <a href="registration.html" class="cta_btn">Registration</a>
+                        <div class="cta_right wow animated bounce" data-wow-delay="4s">
+                            <a href="#" class="cta_btn">Registration</a>
                         </div>
                     </div>
                 </div>
@@ -215,6 +216,13 @@
 
     <!-- Masonry -->
     <script src="js/masonry.pkgd.min.js"></script>
+    <script >
+        $(document).ready(function(){
+                $("li").addClass("wow animated fadeInLeft");
+                $(".fa").addClass("wow animated fadeIn");
+
+        });
+    </script>
 
     <!-- ===== google map script ===== -->
 <!--
