@@ -1973,3 +1973,13 @@ px      68    160    252    344    436    528    620    712    */
         padding-left: 50px
     }
 }
+/* Custom */
+
+@media only screen and (max-width: 500px) {
+    a.ta_btn {
+		width: 75vw;
+		font-size: 12px;
+		padding: 5px;
+		margin: 5px;
+    }
+}
