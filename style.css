@@ -834,23 +834,8 @@ nav#navbar {
 	font-weight: 700
 }
 
-a.cta_btn {
-	font-family: "Raleway";
-	background: #08213d none repeat scroll 0 0;
-	border-radius: 35px;
-	color: #fff;
-	display: inline-block;
-	line-height: 60px;
-	text-align: center;
-	width: 210px;
-	padding: 10px;
-	font-size: 14px;
-	font-weight: 300;
-	text-transform: uppercase;
-	-webkit-transition: .4s;
-	transition: .4s;
-}
-a.ta_btn {
+
+a.ta_btn, a.cta_btn{
 	font-family: "Raleway";
 	background: #08213d none repeat scroll 0 0;
 	color: #fff;
@@ -866,6 +851,12 @@ a.ta_btn {
 	text-transform: uppercase;
 	-webkit-transition: .4s;
 	transition: .4s;
+}
+a.cta_btn {
+
+	border-radius: 14px;
+	width: 210px;
+	padding: 5px;
 }
 a.cta_btn:hover, a.ta_btn:hover {
 	background: #0c2e53;
