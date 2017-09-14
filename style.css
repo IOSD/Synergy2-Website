@@ -1610,7 +1610,7 @@ form.reg_form .col-md-3 .single_input {
 }
 
 .faq_area.section_padding:before {
-	background: #e1e1e1 none repeat scroll 0 0;
+	background: #fff none repeat scroll 0 0;
 	content: "";
 	height: 280px;
 	left: 50%;
